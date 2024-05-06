@@ -1,0 +1,34 @@
+{
+  "name": "miaoqidong.cn",
+  "version": "1.0.0",
+  "description": "official website and github profiles for quzhuli app",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "clean-dev": "vuepress dev src --clean-cache",
+    "clean-package": "yarn cache clean --force",
+    "update-package": "yarn dlx vp-update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miaoqidong/.github.git"
+  },
+  "license": "MPL-2.0",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/miaoqidong/.github/issues"
+  },
+  "homepage": "https://github.com/miaoqidong/.github#readme",
+  "devDependencies": {
+    "vuepress": "2.0.0-rc.0",
+    "vuepress-theme-reco": "2.0.0-rc.6",
+    "@vuepress/plugin-google-analytics": "^2.0.0-rc.0",
+    "@vuepress/plugin-register-components": "^2.0.0-rc.0",
+    "@vuepress/plugin-search": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "marked": "^4.3.0",
+    "moment": "^2.29.4",
+    "vuex": "^4.0.2"
+  }
+}
