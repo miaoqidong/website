@@ -60,12 +60,12 @@ export default defineUserConfig({
             {
                 text: "下载",
                 children: [
-                    { text: "本体", link: "/download/" },
-                    { text: "扩展", link: "/extensions/" },
+                    { text: "趣助理", link: "/download/" },
+                    { text: "其它", link: "/extensions/" },
                 ]
             },
             {
-                text: "参考",
+                text: "教程",
                 children: [
                     {
                         text: "常见问题",
@@ -78,7 +78,7 @@ export default defineUserConfig({
                         ],
                     },
                     {
-                        text: "教程",
+                        text: "视频教程",
                         children: [
                             '/docs/reference/contribution',
                             '/docs/reference/extension-example',

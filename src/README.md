@@ -8,11 +8,11 @@ modules: # 指定首页展示模块
 
 bannerBrand:
   title: 趣助理
-  description: 屏幕点击+消息管理的多功能百宝箱。
+  description: 自定义 屏幕点击+消息管理。
   tagline: 基于无障碍+消息通知+订阅法则。
   buttons:
     - { text: 下载, link: "/download/" }
-    - { text: 浏览插件, link: "/extensions/", type: "plain" }
+    - { text: 浏览其它, link: "/extensions/", type: "plain" }
 
 
 features:
