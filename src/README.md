@@ -8,7 +8,7 @@ modules: # 指定首页展示模块
 
 bannerBrand:
   title: 趣助理
-  description: 自定义 屏幕点击+消息管理。
+  description: 自定义 消息管理+屏幕点击。
   tagline: 基于无障碍+消息通知+订阅法则。
   buttons:
     - { text: 下载, link: "/download/" }
@@ -17,11 +17,11 @@ bannerBrand:
 
 features:
   - title: 消息助理
-    details: 不同软件,好友,群聊的消息均可设置 ①专属提示音;②保存记录防撤回;③自动消除免打扰。
-  - title: 屏幕连点器
-    details: 基于无障碍,免root,屏幕任意位置均可自定义设置自动点击,想点哪里就点哪里.So Easy。
+    details: 任意软件,好友,群聊的消息均可设置 ①专属提示音;②记录防撤回;③消除免打扰。
+  - title: 屏幕点击
+    details: 基于无障碍,免root,屏幕任意位置均可自定义设置点击,滑动,想点哪里就点哪里.So Easy。
   - title: 订阅法则
-    details: 您可编写本地法则满足自己需求, 远程订阅能让您直接使用别人的法则或自己备份的法则。
+    details: 您可轻松制作本地法则满足个性化需求, 远程订阅能让您直接使用别人的法则或自己备份的法则。
 
 footer:
   record: Apache-2.0 Licensed
