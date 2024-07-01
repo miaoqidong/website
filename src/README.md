@@ -7,7 +7,7 @@ modules: # 指定首页展示模块
   - Footer
 
 bannerBrand:
-  title: 趣助理
+  title: 消屏器
   description: 自定义 消息管理+屏幕点击。
   tagline: 基于无障碍+消息通知+订阅法则。
   buttons:
@@ -16,6 +16,8 @@ bannerBrand:
 
 
 features:
+  - title: 免费且单机
+    details: 应用单机不联网,无任何安全隐私隐患且免费,超级简单,任何人均可轻松上手使用。
   - title: 消息助理
     details: 任意软件,好友,群聊的消息均可设置 ①专属提示音;②记录防撤回;③消除免打扰。
   - title: 屏幕点击
@@ -40,12 +42,12 @@ footer:
 home: true
 meta:
   - name: keywords
-    content: 趣助理, quzhuli, Animation, Android app
+    content: 消屏器, quzhuli, Animation, Android app
 lang: zh_CN
 heroImage: /icons/FAVICON-RAW.png
 heroHeight: 140
 actions:
-  - text: 下载趣助理 →
+  - text: 下载消屏器 →
     link: /download/
     type: primary
   - text: 扩展列表
@@ -55,8 +57,8 @@ features:
   - title: 插件化
     details: 系统的插件化框架，通过安装插件来获取更多的源。
   - title: 追番
-    details: 每次打开趣助理，你都可以接收到来自多个番剧源的番剧更新提示。
+    details: 每次打开消屏器，你都可以接收到来自多个番剧源的番剧更新提示。
   - title: 自定义
-    details: 趣助理具有相当多的主题选项，也可以跟随系统自动设置暗黑模式。
+    details: 消屏器具有相当多的主题选项，也可以跟随系统自动设置暗黑模式。
 footer: Apache-2.0 Licensed | Copyright © 2022-present miaoqidong.cn
 --- -->

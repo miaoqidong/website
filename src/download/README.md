@@ -1,9 +1,9 @@
 ---
 title: 下载
-description: 趣助理最新版的下载列表。
+description: 消屏器最新版的下载列表。
 meta:
 - name: keywords
-  content: 趣助理, Download, Official, Android app
+  content: 消屏器, Download, Official, Android app
   lang: zh_CN
   sidebar: false
 ---
@@ -26,22 +26,22 @@ meta:
 
 <!-- ## 从 蓝奏云 下载
 
-你也可以从 蓝奏云 下载或者更新趣助理
+你也可以从 蓝奏云 下载或者更新消屏器
 
 [https://mytiper.gitlab.io/tiper](https://mytiper.gitlab.io/tiper)
 
 ## 从 城通盘 下载
 
-你也可以从 城通盘 下载或者更新趣助理
+你也可以从 城通盘 下载或者更新消屏器
 
 [http://xiazai.miaoqidong.com/d/36659644-48465493-bbc377](http://xiazai.miaoqidong.com/d/36659644-48465493-bbc377)
 
 ## 从 123盘 下载
 
-你也可以从 123盘 下载或者更新趣助理
+你也可以从 123盘 下载或者更新消屏器
 
 [https://www.123pan.com/s/eyfxjv-7kvKd.html](https://www.123pan.com/s/eyfxjv-7kvKd.html)
 
 ## 从   QQ频道  获取
 
-如果你在国内无法访问以上两个下载源，你也可以加入我们的 [QQ频道](https://pd.qq.com/s/gowwu0vzy) 来获取趣助理的更新，但是在QQ频道的更新往往不是最快的。 -->
+如果你在国内无法访问以上两个下载源，你也可以加入我们的 [QQ频道](https://pd.qq.com/s/gowwu0vzy) 来获取消屏器的更新，但是在QQ频道的更新往往不是最快的。 -->

@@ -3,7 +3,7 @@ title: 扩展
 description: 其它好用的软件分享。
 meta:
 - name: keywords
-  content: 趣助理, Extensions, Official, Android app
+  content: 消屏器, Extensions, Official, Android app
   lang: zh_CN
   sidebar: false
 ---

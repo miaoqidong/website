@@ -60,7 +60,7 @@ export default defineUserConfig({
             {
                 text: "下载",
                 children: [
-                    { text: "趣助理", link: "/download/" },
+                    { text: "消屏器", link: "/download/" },
                     { text: "其它", link: "/extensions/" },
                 ]
             },
@@ -91,7 +91,7 @@ export default defineUserConfig({
     }),
 
     // 网站多语言支持
-    title: '趣助理',
+    title: '消屏器',
     description: '多功能百宝箱',
 
     // 插件

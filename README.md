@@ -2,7 +2,7 @@
 	<p align="center">
 		<img src="./src/.vuepress/public/icons/logo.ico" height="100px">
 	</p>
-	<h1 align="center">PureCute website</h1>
+	<h1 align="center">消屏器 website</h1>
 </div>
 
 ## APP Download
