@@ -11,7 +11,7 @@ meta:
 # 下载
 
 ::: tip
-[stars](https://github.com/miaoqidong/quzhuli) 可以帮助开发者加快新功能的开发。
+[stars](https://github.com/miaoqidong/xiaopingqi) 可以帮助开发者加快新功能的开发。
 :::
 
 希望您能够享受这个app。
@@ -28,19 +28,19 @@ meta:
 
 你也可以从 蓝奏云 下载或者更新消屏器
 
-[https://mytiper.gitlab.io/tiper](https://mytiper.gitlab.io/tiper)
+[https://mytiper.gitlab.io/xiaopingqi](https://mytiper.gitlab.io/xiaopingqi)
 
 ## 从 城通盘 下载
 
 你也可以从 城通盘 下载或者更新消屏器
 
-[http://xiazai.miaoqidong.com/d/36659644-48465493-bbc377](http://xiazai.miaoqidong.com/d/36659644-48465493-bbc377)
+[http://xiazai.miaoqidong.com/d/36659644-61750345-347294](http://xiazai.miaoqidong.com/d/36659644-61750345-347294)
 
 ## 从 123盘 下载
 
 你也可以从 123盘 下载或者更新消屏器
 
-[https://www.123pan.com/s/eyfxjv-7kvKd.html](https://www.123pan.com/s/eyfxjv-7kvKd.html)
+[https://www.123pan.com/s/eyfxjv-afHKd.html](https://www.123pan.com/s/eyfxjv-afHKd.html)
 
 ## 从   QQ频道  获取
 
