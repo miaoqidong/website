@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miaoqidong/.github.git"
+    "url": "git+https://github.com/miaoqidong/quzhuli/.github.git"
   },
   "license": "MPL-2.0",
   "private": true,
   "bugs": {
-    "url": "https://github.com/miaoqidong/.github/issues"
+    "url": "https://github.com/miaoqidong/quzhuli/.github/issues"
   },
-  "homepage": "https://github.com/miaoqidong/.github#readme",
+  "homepage": "https://github.com/miaoqidong/quzhuli/.github#readme",
   "devDependencies": {
     "vuepress": "2.0.0-rc.0",
     "vuepress-theme-reco": "2.0.0-rc.6",
