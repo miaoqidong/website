@@ -7,17 +7,14 @@ export default {
 		...mapState(['stable', 'nightly']),
 
 		stableBody() {
-			let body = this.stable && this.stable.data && this.stable.data.body
+			const body = this.stable && this.stable.data && this.stable.data.body
 			if (!body) {
-				return '加载中...'
+				return 'loading...'
 			}
-			body = body.split('\r\n')
-    			for (let i = 0; i < body.length; i++) {
-    				if (i > 0) {
-    					body[i] = `- ${body[i]}`
-    				}
-    			}
-    			return marked.parse(body.join('\r\n'))
+			return marked(body).replace(
+				/(?<=\(|(, ))@(.*?)(?=\)|(, ))/g,
+				"<a href='https://github.com/$2' target='_blank' rel='noopener'>@$2</a>"
+			)
 		}
 	}
 };
@@ -26,16 +23,15 @@ export default {
 <template>
 	<div class="guide whatsNew">
 		<p class="title">
-			更新日志
+			What's new
 		</p>
 		<div v-html="stableBody"></div>
 		<div class="note">
 			<p>
-				在
+				View the full release
 				<a href="https://github.com/miaoqidong/quzhuli/releases/latest" target="_blank" rel="noopener">
-					GitHub
+					here
 				</a>
-				上查看
 			</p>
 		</div>
 	</div>
@@ -57,6 +53,7 @@ export default {
 }
 
 .note {
+	color: rgba(0, 0, 0, .4);
 	font-size: .9rem;
 	text-align: right;
 }
