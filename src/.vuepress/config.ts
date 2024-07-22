@@ -1,11 +1,11 @@
 import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
 import { recoTheme } from 'vuepress-theme-reco'
-// import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
-// import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-// import { searchPlugin } from '@vuepress/plugin-search'
-// import { getDirname, path } from '@vuepress/utils'
-
-// const __dirname = getDirname(import.meta.url)
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { getDirname, path } from '@vuepress/utils'
+const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
     // 头部设置
@@ -16,14 +16,20 @@ export default defineUserConfig({
         ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ],
 
+        bundler: viteBundler({
+            viteOptions: {},
+            vuePluginOptions: {},
+        }),
+
+
     // 主题配置
     theme: recoTheme({
 
         // 基本配置
-        style: "@vuepress-reco/style-default",
+//         style: "@vuepress-reco/style-default",
         logo: "/icons/logo.ico",
         repo: "miaoqidong/website",
-        sourceDir: "src",
+//         sourceDir: "src",
         // 协同编辑
         docsRepo: "https://github.com/miaoqidong/website",
         docsBranch: 'master',
@@ -96,21 +102,21 @@ export default defineUserConfig({
 
     // 插件
     plugins: [
-        // registerComponentsPlugin({
-        //      componentsDir: path.resolve(__dirname, './components'),
-        // }),
-        // googleAnalyticsPlugin({
-        //     id: "G-9CF0ZQPB32"
-        // }),
-        // searchPlugin({
-        //     locales: {
-        //         '/en/': {
-        //             placeholder: 'Search',
-        //         },
-        //         '/': {
-        //             placeholder: '搜索',
-        //         },
-        //     },
-        // }),
+        registerComponentsPlugin({
+             componentsDir: path.resolve(__dirname, './components'),
+        }),
+        googleAnalyticsPlugin({
+            id: "G-9CF0ZQPB32"
+        }),
+        searchPlugin({
+            locales: {
+                '/': {
+                    placeholder: '搜索',
+                },
+            },
+        }),
+
+
+
     ],
 })
