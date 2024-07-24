@@ -1144,9 +1144,9 @@
     vue "^3.3.8"
     vue-router "^4.2.5"
 
-"@vuepress-reco/vuepress-plugin-code-copy@2.0.0-rc.16":
-  version "2.0.0-rc.16"
-  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-code-copy/-/vuepress-plugin-code-copy-2.0.0-rc.16.tgz#12b9a20a1ed33f0c84f7a8254c64a22a5ca73eb4"
+"@vuepress-reco/vuepress-plugin-code-copy@2.0.0-rc.6":
+  version "2.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-code-copy/-/vuepress-plugin-code-copy-2.0.0-rc.6.tgz#12b9a20a1ed33f0c84f7a8254c64a22a5ca73eb4"
   integrity sha512-Cix9lonRPdcAKroNrokSSTfoXGEVF+TKeOBsN17mynGvpnlS8rUnolnXAbUzdIbtYhdjwQQJkMQAZjVKVjebgQ==
   dependencies:
     "@vuepress/client" "2.0.0-rc.0"
@@ -1154,9 +1154,9 @@
     "@vuepress/utils" "2.0.0-rc.0"
     vue-router "^4.2.5"
 
-"@vuepress-reco/vuepress-plugin-comments@2.0.0-rc.16":
-  version "2.0.0-rc.16"
-  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-comments/-/vuepress-plugin-comments-2.0.0-rc.16.tgz#d82b87bfae0a1da68e7fba8625840256e84fe119"
+"@vuepress-reco/vuepress-plugin-comments@2.0.0-rc.6":
+  version "2.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-comments/-/vuepress-plugin-comments-2.0.0-rc.6.tgz#d82b87bfae0a1da68e7fba8625840256e84fe119"
   integrity sha512-o2bOIJ0gZqeNyRNbBxlmA/RKggubovjfvY21NZ3VlDUWB88lvBL615cXpNduCxefioEcF4GvG6NQwXPwXmW/pQ==
   dependencies:
     "@giscus/vue" "^2.2.8"
@@ -1179,9 +1179,9 @@
     "@vuepress/core" "2.0.0-rc.0"
     markdown-it-task-lists "2.1.1"
 
-"@vuepress-reco/vuepress-plugin-page@2.0.0-rc.16":
-  version "2.0.0-rc.16"
-  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-page/-/vuepress-plugin-page-2.0.0-rc.16.tgz#62cdaa5f6541e51cfaea9efcfb90536f6af6e7e5"
+"@vuepress-reco/vuepress-plugin-page@2.0.0-rc.6":
+  version "2.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-page/-/vuepress-plugin-page-2.0.0-rc.6.tgz#62cdaa5f6541e51cfaea9efcfb90536f6af6e7e5"
   integrity sha512-XRfybraartA6MTQIPDmDLpbNMTKLdGNTvz5ZIiJUj99ckQkB2NcSOE7PkPtJtJyGL5BI9FgdihMydc+EpFUOiw==
   dependencies:
     "@vuepress-reco/shared" "2.0.0-rc.74"
@@ -5243,19 +5243,19 @@ vue@^3.3.4, vue@^3.3.8, vue@^3.4.21:
     "@vue/server-renderer" "3.4.21"
     "@vue/shared" "3.4.21"
 
-vuepress-theme-reco@2.0.0-rc.16:
-  version "2.0.0-rc.16"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-reco/-/vuepress-theme-reco-2.0.0-rc.16.tgz#25fe39dcefc0d733eaf4f965400fa132495cb317"
+vuepress-theme-reco@2.0.0-rc.6:
+  version "2.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-reco/-/vuepress-theme-reco-2.0.0-rc.6.tgz#25fe39dcefc0d733eaf4f965400fa132495cb317"
   integrity sha512-ecWYwlw6sIClnUQYl2M27MMe0SAfBFPFYQ3jxrAnoiBtdrmG0IxtDr1Q+VJG1bkC+/IRqHsyZcJyH2a0UYR9mA==
   dependencies:
     "@vicons/carbon" "^0.12.0"
     "@vuepress-reco/shared" "2.0.0-rc.74"
     "@vuepress-reco/tailwindcss-config" "2.0.0-rc.74"
     "@vuepress-reco/vuepress-plugin-bulletin-popover" "2.0.0-rc.74"
-    "@vuepress-reco/vuepress-plugin-code-copy" "2.0.0-rc.16"
-    "@vuepress-reco/vuepress-plugin-comments" "2.0.0-rc.16"
+    "@vuepress-reco/vuepress-plugin-code-copy" "2.0.0-rc.6"
+    "@vuepress-reco/vuepress-plugin-comments" "2.0.0-rc.6"
     "@vuepress-reco/vuepress-plugin-markdown-task" "2.0.0-rc.74"
-    "@vuepress-reco/vuepress-plugin-page" "2.0.0-rc.16"
+    "@vuepress-reco/vuepress-plugin-page" "2.0.0-rc.6"
     "@vuepress-reco/vuepress-plugin-vue-preview" "2.0.0-rc.74"
     "@vuepress/bundler-vite" "2.0.0-rc.0"
     "@vuepress/bundler-webpack" "2.0.0-rc.0"
