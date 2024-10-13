@@ -1,0 +1,114 @@
+{
+    "version":9,
+    "helpList":[
+        "1.点击下载链接即可跳转。\n2.如果未跳转，那就是链接失效了。",
+        "2.升级软件"
+    ],
+    "game":[
+        {
+            "name": "真朋友",
+            "py": "zpy",
+            "appId": "realfriend",
+            "bundleId": "realfriend",
+            "pkg": "",
+            "cls": "",
+            "help": "",
+            "icon": "https://mmocgame.qpic.cn/wechatgame/duc2TvpEgSTYxUqqN4hN5IY9CBSQbopCx5644rBhOwtrRTGXkUbKChWp0Iia3Q2PR/0"
+        },
+        {
+            "name":"微X助理",
+            "py":"wxzl",
+            "appId":"wechat",
+            "bundleId":"https://mytiper.gitlab.io/wechat",
+            "pkg":"",
+            "cls":"",
+            "help":"",
+            "icon":"https://mmbiz.qpic.cn/mmbiz/RYZo4kDWZVVkEp7O1b7p2KwKzW3iaicf3j5UvyHe8Qzl7VH5bTm5q3gErpte2gQSJnVjzPkRD3sQUeIZFt2iczqcA/0"
+        },
+        {
+            "name":"企X助理",
+            "py":"qxzl",
+            "appId":"wework",
+            "bundleId":"https://mytiper.gitlab.io/wework/",
+            "pkg":"",
+            "cls":"",
+            "help":"",
+            "icon":"https://file.market.xiaomi.com/thumbnail/PNG/l114/AppStore/0e3e129774966416d9ad9cf187f85bb7e6b2654bb"
+        },
+        {
+            "name":"定时消息",
+            "py":"dsxx",
+            "appId":"send",
+            "bundleId":"send",
+            "pkg":"",
+            "cls":"",
+            "help":"",
+            "icon":"https://mmgame.qpic.cn/image/7fe895266e9a5e805958747d93003a3ae0bfafd546f47c0d7684179810591e4f/0"
+        },
+
+        {
+            "name": "趣旋转",
+            "py": "qxz",
+            "appId": "down",
+            "bundleId": "down",
+            "pkg": "",
+            "cls": "",
+            "help": "",
+            "icon": "https://mmgame.qpic.cn/image/13aa04f9e42cbccbc8f09d7ade67501552964895aad2330568e785acc353367a/0"
+        },
+        {
+            "name": "趣安卓",
+            "py": "qaz",
+            "appId": "funandroid",
+            "bundleId": "funandroid",
+            "pkg": "",
+            "cls": "",
+            "help": "",
+            "icon": "https://mmocgame.qpic.cn/wechatgame/duc2TvpEgSTdVXajovr6lbv1DbaLSe6IT67NktCFfH7r2Cu7Cg0udibLFPY6ibsspE/0"
+        },
+
+        {
+            "name":"趣助理",
+            "py":"qzl",
+            "appId":"tiper",
+            "bundleId":"tiper",
+            "pkg":"",
+            "cls":"",
+            "help":"",
+            "helpIndex":1,
+            "icon":"https://file.market.xiaomi.com/thumbnail/PNG/l114/AppStore/013cf54dc160790bc23acd03e535af996ea43919a"
+        },
+        {
+            "name":"消屏器",
+            "py":"xpq",
+            "appId":"xiaopingqi",
+            "bundleId":"xiaopingqi",
+            "pkg":"",
+            "cls":"",
+            "help":"",
+            "helpIndex":1,
+            "icon":"https://file.market.xiaomi.com/thumbnail/PNG/l114/AppStore/034c63427698c40751d7be7aaaa7613cd4866f68b"
+        },
+        {
+            "name":"企业微信",
+            "py":"qywx",
+            "appId":"https://www.123865.com/s/eyfxjv-kuAKd",
+            "bundleId":"https://www.123865.com/s/eyfxjv-kuAKd",
+            "pkg":"",
+            "cls":"",
+            "help":"",
+            "helpIndex":1,
+            "icon":"https://file.market.xiaomi.com/thumbnail/PNG/l114/AppStore/08a62142adedd46c41a07c5a07693810781e70a07"
+        },
+        {
+            "name": "点击法则",
+            "py": "djfz",
+            "appId": "https://api.github.com/repos/xpq-yan/yuan/releases/latest",
+            "bundleId": "https://api.github.com/repos/xpq-yan/yuan/releases/latest",
+            "pkg": "",
+            "cls": "",
+            "help": "",
+            "icon": "https://file.market.xiaomi.com/thumbnail/PNG/l114/AppStore/0216653d69b2912c9a740b57b62274e63974398b5"
+        }
+    ]
+}
